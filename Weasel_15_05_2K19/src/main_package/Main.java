@@ -43,10 +43,9 @@ public class Main {
              counter++;
              if(FSChar[i]==IntSChar[i]){
                  ResultChar[i]=FSChar[i];
-             } //else {continue;}
+             }
          }
 
-//            System.out.println(Arrays.toString(ResultChar));
             System.out.println(IntSChar);
             System.out.println(charArrToStr(ResultChar) + "\n");
             Thread.sleep(1200);
