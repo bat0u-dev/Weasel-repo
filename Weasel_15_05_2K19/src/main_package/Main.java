@@ -30,7 +30,6 @@ public class Main {
     private static char[] IntSChar;
     private static char[] ResultChar;
     private static String ResultCharArrToString;
-//    static StringBuilder builder = new StringBuilder();
 
     public static void main(String[] args) throws Exception{
        FinalSentence = scr.nextLine();
