@@ -23,7 +23,7 @@ import java.util.Scanner;
 
 public class Main {
     private static char[] Symbols = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
-            'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', ' '};//27 symbols
+            'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', ' '};//*hardcode! 27 symbols
     private static Scanner scr = new Scanner(System.in);
     private static String FinalSentence;//= "methinks it is like a weasel";
     private static char[] FSChar;
