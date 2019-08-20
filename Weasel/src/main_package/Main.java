@@ -29,7 +29,6 @@ public class Main {
     private static char[] FSChar;
     private static char[] IntSChar;
     private static char[] ResultChar;
-    private static String ResultCharArrToString;
 
     public static void main(String[] args) throws Exception{
        FinalSentence = scr.nextLine();
