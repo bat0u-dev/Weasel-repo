@@ -33,14 +33,16 @@ public class Main {
     private static Random random = new Random();
 
     public static void main(String[] args) throws Exception{
+        System.out.print("Введите целевое предложение: ");
        finalSentence = scr.nextLine();
        fSChar = finalSentence.toCharArray();
        resultChar = new char[finalSentence.length()];
         int counter=0;
         do{
          intSChar = createSentence();
+         counter++;
          for(int i = 0; i< fSChar.length; i++){
-             counter++;
+
              if(fSChar[i]== intSChar[i]){
                  resultChar[i]= fSChar[i];
              }
